@@ -46,7 +46,7 @@ The refresh parameter includes javascript to retry the image every second until 
 Example:
 
 `
-&#91;ssm key="abc123" url="http://surniaulula.com/extend/plugins/ssm-shortcode/" size="S"&#93;
+&#91;ssm key="abc123" url="http://surniaulula.com/extend/plugins/screenshot-machine-shortcode/" size="S"&#93;
 `
 
 == Installation ==
