@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Screenshot Machine Shortcode
-Plugin URI: http://surniaulula.com/extend/plugins/ssm-shortcode/
+Plugin URI: http://surniaulula.com/extend/plugins/screenshot-machine-shortcode/
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
 Description: Shortcode for Screenshot Machine Images
