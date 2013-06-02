@@ -14,14 +14,19 @@ Include images from Screenshot Machine in your content with a shortcode.
 Use the `&#91;ssm&#93;` shortcode in your content with the following arguments:
 
 * key="{account key}"
-* size="{size letter}" (default=T)
 * url="{website url}"
+* size="{size letter}" (default=T)
+* format="{jpg|png|gif}" (default=jpg)
+* days="{cache expiration}" (default=14)
+* wait="{wait in ms}" (default=200)
 * title="{href title}"
 * link="{yes|no}" (default=yes)
-* blank="{yes|no}" (default=yes)
+* target="{link target}" (default=_blank)
 * refresh="{yes|no}" (default=yes)
 
 You can find the {account key} on [your Screenshot Machine account/settings page](https://www.screenshotmachine.com/account.php).
+
+The {website url} is the web page URL to capture into a screenshot.
 
 Valid {size letter} values are:
 
@@ -33,13 +38,17 @@ Valid {size letter} values are:
 * L = Width 800 x Height 600
 * X = Width 1024 x Height 768
 
-The {website url} is the web page URL to capture into a screenshot.
+{jpeg|png|gif} is the image format to use (default is jpg).
+
+{cache expiration} is the number of days a screenshot should be used before a new one is created.
+
+{wait in ms} is the number of milliseconds to wait before capturing the screenshot.
 
 {href title} is the title text for the image alt and link title.
 
 The link yes/no value will determine if the image is linked to the web page URL or not.
 
-If blank is set to yes, the link will be opened in a new window / tab.
+The {link target} default will open links in a new window/tab. An empty string, '_self', '_top', '_parent', and a framename are also valid.
 
 The refresh parameter includes javascript to retry the image every second until it's available (for a maximum of 10 seconds).
 
@@ -70,6 +79,11 @@ Example:
 == Frequently Asked Questions ==
 
 == Changelog ==
+
+= Version 1.1 =
+
+* Removed the 'blank' argument, replacing it with 'target' instead.
+* Added the 'format', 'days', and 'wait' arguments.
 
 = Version 1.0 =
 

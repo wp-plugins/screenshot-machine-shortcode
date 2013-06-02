@@ -36,16 +36,18 @@ if ( ! class_exists( 'ScreenShotMachineShortCode' ) ) {
 		public function shortcode($atts, $content = NULL){
 			extract( shortcode_atts( array(
 				'key' => '',
-				'size' => 'T',
 				'url' => '',
+				'size' => 'T',
+				'format' => 'jpg',
+				'days' => '14',
+				'wait' => '200',
 				'title' => '',
 				'link' => true,
-				'blank' => true,
+				'target' => '_blank',
 				'refresh' => true,
 			), $atts ) );
 
 			$size = strtoupper( $size );
-			$blank = filter_var($blank, FILTER_VALIDATE_BOOLEAN);
 			$link = filter_var($link, FILTER_VALIDATE_BOOLEAN);
 			$refresh = filter_var($refresh, FILTER_VALIDATE_BOOLEAN);
 
@@ -60,7 +62,8 @@ if ( ! class_exists( 'ScreenShotMachineShortCode' ) ) {
 			}
 
 			$output = '';
-			$img_url = $this->api_url.'?key='.$key.'&url='.urlencode($url).'&size='.$size;
+			$img_url = $this->api_url.'?key='.$key.'&url='.urlencode($url).'&size='.$size.'&format='.$format.'&cacheLimit='.$days.'&timeout='.$wait;
+
 			$classnames = array( 'ssm' );
 
 			if ($refresh)  {
@@ -71,7 +74,7 @@ if ( ! class_exists( 'ScreenShotMachineShortCode' ) ) {
 
 			if ($link == true) {
 				$output .= '<a href="'. $url .'" title="'. $title .'" class="ssm_link" ';
-				if ($blank == true) $output .= ' target="_blank" ';
+				if ( ! empty( $target ) ) $output .= ' target="' . $target . '" ';
 				$output .= ' >';
 			}
 
