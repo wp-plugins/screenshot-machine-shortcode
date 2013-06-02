@@ -5,7 +5,7 @@ Tags: screenshot, machine, shortcode
 Requires at least: 3.0
 License: GPLv2 or later
 Tested up to: 3.5.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Include images from Screenshot Machine in your content with a shortcode.
 

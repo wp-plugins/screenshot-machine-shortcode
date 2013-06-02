@@ -5,7 +5,7 @@ Plugin URI: http://surniaulula.com/extend/plugins/screenshot-machine-shortcode/
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
 Description: Shortcode for Screenshot Machine Images
-Version: 1.0
+Version: 1.1
 
 Copyright 2013 - Jean-Sebastien Morisset - http://surniaulula.com/
 
