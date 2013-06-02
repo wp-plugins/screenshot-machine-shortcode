@@ -24,6 +24,8 @@ Use the `&#91;ssm&#93;` shortcode in your content with the following arguments:
 * target="{link target}" (default=_blank)
 * refresh="{yes|no}" (default=yes)
 
+<!--more-->
+
 You can find the {account key} on [your Screenshot Machine account/settings page](https://www.screenshotmachine.com/account.php).
 
 The {website url} is the web page URL to capture into a screenshot.
