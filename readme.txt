@@ -67,7 +67,7 @@ Example:
 1. Login to your weblog
 1. Go to Plugins
 1. Select Add New
-1. Search for *NextGEN Facebook*
+1. Search for *Screenshot Machine Shortcode*
 1. Select Install
 1. Select Install Now
 1. Select Activate Plugin
@@ -75,7 +75,7 @@ Example:
 *Manual*
 
 1. Download and unzip the plugin
-1. Upload the entire adobe-xmp-for-wp/ folder to the /wp-content/plugins/ directory
+1. Upload the entire screenshot-machine-shortcode/ folder to the /wp-content/plugins/ directory
 1. Activate the plugin through the Plugins menu in WordPress
 
 == Frequently Asked Questions ==

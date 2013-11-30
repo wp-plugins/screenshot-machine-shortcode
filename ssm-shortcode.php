@@ -4,6 +4,8 @@ Plugin Name: Screenshot Machine Shortcode
 Plugin URI: http://surniaulula.com/extend/plugins/screenshot-machine-shortcode/
 Author: Jean-Sebastien Morisset
 Author URI: http://surniaulula.com/
+License: GPLv3
+License URI: http://surniaulula.com/wp-content/uploads/license/gpl.txt
 Description: Shortcode for Screenshot Machine Images
 Version: 1.1
 
