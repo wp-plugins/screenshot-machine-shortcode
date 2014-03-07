@@ -1,6 +1,5 @@
 === Screenshot Machine Shortcode ===
 Contributors: jsmoriss
-Donate link: http://surniaulula.com/extend/plugins/contribution-form/
 Tags: screenshot, machine, shortcode
 Requires at least: 3.0
 License: GPLv2 or later
