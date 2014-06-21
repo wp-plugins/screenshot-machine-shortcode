@@ -3,7 +3,7 @@ Contributors: jsmoriss
 Tags: screenshot, machine, shortcode
 Requires at least: 3.0
 License: GPLv2 or later
-Tested up to: 3.6
+Tested up to: 3.9.1
 Stable tag: 1.1
 
 Include images from Screenshot Machine in your content with a shortcode.
@@ -74,7 +74,7 @@ Example:
 *Manual*
 
 1. Download and unzip the plugin
-1. Upload the entire screenshot-machine-shortcode/ folder to the /wp-content/plugins/ directory
+1. Upload the entire `screenshot-machine-shortcode/` folder to the `wp-content/plugins/` directory
 1. Activate the plugin through the Plugins menu in WordPress
 
 == Frequently Asked Questions ==
@@ -85,8 +85,4 @@ Example:
 
 * Removed the 'blank' argument, replacing it with 'target' instead.
 * Added the 'format', 'days', and 'wait' arguments.
-
-= Version 1.0 =
-
-* Initial release.
 
