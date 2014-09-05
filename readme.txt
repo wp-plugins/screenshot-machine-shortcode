@@ -1,10 +1,11 @@
 === Screenshot Machine Shortcode ===
 Contributors: jsmoriss
 Tags: screenshot, machine, shortcode
-Requires at least: 3.0
-License: GPLv2 or later
-Tested up to: 3.9.1
-Stable tag: 1.1
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl.txt
+Requires At Least: 3.0
+Tested Up To: 4.0
+Stable Tag: 1.1
 
 Include images from Screenshot Machine in your content with a shortcode.
 
