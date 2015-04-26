@@ -1,7 +1,7 @@
 <h1>Screenshot Machine Shortcode</h1>
 
 <table>
-<tr><th align="right" valign="top" nowrap>Description Summary</th><td>Include images from Screenshot Machine in your content with a shortcode.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Include images from Screenshot Machine in your content with a shortcode.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.1.1</td></tr>
