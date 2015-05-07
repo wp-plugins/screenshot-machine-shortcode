@@ -1,4 +1,6 @@
 === Screenshot Machine Shortcode ===
+Plugin Name: Screenshot Machine Shortcode
+Plugin Slug: screenshot-machine-shortcode
 Contributors: jsmoriss
 Tags: screenshot, machine, shortcode
 License: GPLv3
