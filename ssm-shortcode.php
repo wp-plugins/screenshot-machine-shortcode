@@ -1,26 +1,28 @@
 <?php
 /*
-Plugin Name: Screenshot Machine Shortcode
-Plugin URI: http://surniaulula.com/extend/plugins/screenshot-machine-shortcode/
-Author: Jean-Sebastien Morisset
-Author URI: http://surniaulula.com/
-License: GPLv3
-License URI: http://surniaulula.com/wp-content/uploads/license/gpl.txt
-Description: Shortcode for Screenshot Machine Images
-Version: 1.1
-
-Copyright 2013 - Jean-Sebastien Morisset - http://surniaulula.com/
-
-This script is free software; you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation; either version 3 of the License, or (at your option) any later
-version.
-
-This script is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the GNU General Public License for more details at
-http://www.gnu.org/licenses/.
-*/
+ * Plugin Name: Screenshot Machine Shortcode
+ * Plugin URI: http://surniaulula.com/extend/plugins/screenshot-machine-shortcode/
+ * Author: Jean-Sebastien Morisset
+ * Author URI: http://surniaulula.com/
+ * License: GPLv3
+ * License URI: http://www.gnu.org/licenses/gpl.txt
+ * Description: Shortcode for Screenshot Machine Images
+ * Requires At Least: 3.0
+ * Tested Up To: 4.2.2
+ * Version: 1.1
+ *
+ * Copyright 2013-2015 - Jean-Sebastien Morisset - http://surniaulula.com/
+ * 
+ * This script is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * This script is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE. See the GNU General Public License for more details at
+ * http://www.gnu.org/licenses/.
+ */
 
 if ( ! defined( 'ABSPATH' ) ) 
 	die( 'Sorry, you cannot call this webpage directly.' );
