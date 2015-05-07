@@ -1,6 +1,7 @@
 <h1>Screenshot Machine Shortcode</h1>
 
 <table>
+<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>Screenshot Machine Shortcode</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>Include images from Screenshot Machine in your content with a shortcode.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.0</td></tr>
