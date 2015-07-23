@@ -6,7 +6,7 @@ Tags: screenshot, machine, shortcode
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Requires At Least: 3.0
-Tested Up To: 4.1.1
+Tested Up To: 4.2.3
 Stable Tag: 1.1
 
 Include images from Screenshot Machine in your content with a shortcode.
